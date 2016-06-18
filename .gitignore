@@ -1,0 +1,34 @@
+# Don't check-in symlinks from sites-enabled
+sites-enabled/*
+
+# MacOS filter
+*.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# IDE related
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.idea/
+.project
+*.iws
+out/
+.idea_modules/
+atlassian-ide-plugin.xml

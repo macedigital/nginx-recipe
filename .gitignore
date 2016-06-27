@@ -1,8 +1,6 @@
 # Don't check-in symlinks from sites-enabled or conf.d but keep directories
 sites-enabled/*
-conf.d/*
 !sites-enabled/.gitkeep
-!conf.d/.gitkeep
 
 # MacOS filter
 *.DS_Store
